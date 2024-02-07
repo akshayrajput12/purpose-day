@@ -138,6 +138,7 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         ["amongst trillions and trillions of stars,", "over billions of years"],
+        "thoda zada hai😂😂 par i love you",
         canvas.width / 2,
         canvas.height / 2,
         fontSize,
@@ -261,6 +262,7 @@ function drawText() {
         [
           "I love you so much , more than",
           "all the time and space in the universe can contain",
+          "ye bas aise hi bol diya dil m nhi lene ka ise😂😂",
         ],
         canvas.width / 2,
         canvas.height / 2,
@@ -270,6 +272,7 @@ function drawText() {
     } else {
       context.fillText(
         "I love you so much , more than all the time and space in the universe can contain",
+        "ye bas aise hi bol diya dil m nhi lene ka ise😂😂",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -286,6 +289,7 @@ function drawText() {
         [
           "and I can't wait to spend all the time in",
           "the world to share that love with you!",
+          "ye bhi bas aise hi bol diya dil m nhi lene ka ise😂😂 but i lover you",
         ],
         canvas.width / 2,
         canvas.height / 2 + 70,
