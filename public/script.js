@@ -307,7 +307,7 @@ function drawText() {
     secondOpacity = secondOpacity + 0.01;
   }
 
-  if (frameNumber >= 3600 && frameNumber < 99999) {
+  if (frameNumber >= 2700 && frameNumber < 99999) {
     context.fillStyle = `rgba(255, 255, 255, ${thirdOpacity})`;
     context.fillText(
       "Will You Be Mine?",
