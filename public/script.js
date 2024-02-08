@@ -87,7 +87,7 @@ function drawText() {
   context.font = fontSize + "px Comic Sans MS";
   context.textAlign = "center";
 
-  if (frameNumber < 300) {
+  if (frameNumber < 150) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
       "everyday day I cannot believe how lucky I am",
@@ -97,7 +97,7 @@ function drawText() {
     opacity = opacity + 0.01;
   }
   //fades out the text by decreasing the opacity
-  if (frameNumber >= 300 && frameNumber < 600) {
+  if (frameNumber >= 150 && frameNumber < 200) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
       "everyday day I cannot believe how lucky I am",
@@ -108,10 +108,10 @@ function drawText() {
   }
 
   //needs this if statement to reset the opacity before next statement on canvas
-  if (frameNumber == 600) {
+  if (frameNumber == 200) {
     opacity = 0;
   }
-  if (frameNumber > 600 && frameNumber < 900) {
+  if (frameNumber > 200 && frameNumber < 400) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
 
     if (window.innerWidth < 600) {
@@ -132,7 +132,7 @@ function drawText() {
 
     opacity = opacity + 0.01;
   }
-  if (frameNumber >= 900 && frameNumber < 1200) {
+  if (frameNumber >= 500 && frameNumber < 800) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
 
     if (window.innerWidth < 600) {
@@ -155,10 +155,10 @@ function drawText() {
     opacity = opacity - 0.01;
   }
 
-  if (frameNumber == 1200) {
+  if (frameNumber == 800) {
     opacity = 0;
   }
-  if (frameNumber > 1200 && frameNumber < 1500) {
+  if (frameNumber > 800 && frameNumber < 1200) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
       "to be alive, and to get to spend this life with you",
@@ -167,7 +167,7 @@ function drawText() {
     );
     opacity = opacity + 0.01;
   }
-  if (frameNumber >= 1500 && frameNumber < 1800) {
+  if (frameNumber >= 1200 && frameNumber < 1500) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
       "to be alive, and to get to spend this life with you",
@@ -177,10 +177,10 @@ function drawText() {
     opacity = opacity - 0.01;
   }
 
-  if (frameNumber == 1800) {
+  if (frameNumber == 1500) {
     opacity = 0;
   }
-  if (frameNumber > 1800 && frameNumber < 2100) {
+  if (frameNumber > 1500 && frameNumber < 1900) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
       "is so incredibly, unfathomably unlikely",
@@ -189,7 +189,7 @@ function drawText() {
     );
     opacity = opacity + 0.01;
   }
-  if (frameNumber >= 2100 && frameNumber < 2400) {
+  if (frameNumber >= 1900 && frameNumber < 2200) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
       "is so incredibly, unfathomably unlikely",
@@ -199,10 +199,10 @@ function drawText() {
     opacity = opacity - 0.01;
   }
 
-  if (frameNumber == 2400) {
+  if (frameNumber == 2200) {
     opacity = 0;
   }
-  if (frameNumber > 2400 && frameNumber < 2700) {
+  if (frameNumber > 2200 && frameNumber < 2400) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
 
     if (window.innerWidth < 600) {
@@ -226,7 +226,7 @@ function drawText() {
 
     opacity = opacity + 0.01;
   }
-  if (frameNumber >= 2700 && frameNumber < 3000) {
+  if (frameNumber >= 2400 && frameNumber < 2700) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
 
     if (window.innerWidth < 600) {
@@ -251,10 +251,10 @@ function drawText() {
     opacity = opacity - 0.01;
   }
 
-  if (frameNumber == 3000) {
+  if (frameNumber == 2700) {
     opacity = 0;
   }
-  if (frameNumber > 3000 && frameNumber < 99999) {
+  if (frameNumber > 2700 && frameNumber < 99999) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
 
     if (window.innerWidth < 600) {
@@ -281,7 +281,7 @@ function drawText() {
     opacity = opacity + 0.01;
   }
 
-  if (frameNumber >= 3300 && frameNumber < 99999) {
+  if (frameNumber >= 2700 && frameNumber < 99999) {
     context.fillStyle = `rgba(255, 255, 255, ${secondOpacity})`;
 
     if (window.innerWidth < 600) {
